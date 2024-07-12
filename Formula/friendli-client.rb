@@ -8,6 +8,7 @@ class FriendliClient < Formula
   license "Apache-2.0"
   head "https://github.com/friendliai/friendli-client.git", branch: "main"
 
+  depends_on "maturin"
   depends_on "python@3.11"
 
   resource "annotated-types" do
