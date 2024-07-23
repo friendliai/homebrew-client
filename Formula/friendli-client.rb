@@ -3,8 +3,8 @@ class FriendliClient < Formula
 
   desc "Client for Friendli Suite, Supercharging Generative AI"
   homepage "https://friendli.ai"
-  url "https://files.pythonhosted.org/packages/5a/75/4c18de9d704b9c5dd8114320df081df3299a802609e1c939fa0f248fa530/friendli_client-2.0.0a7.tar.gz"
-  sha256 "930e6877e09fd50dbc10ae276edd8f75516bb1a7fa8cdc1dfed04e69c1a01f45"
+  url "https://files.pythonhosted.org/packages/b2/21/94843853ac6589da0e4dc58a35ff3e25f0f200040a5246d23a88bd6016cf/friendli_client-2.0.0a8.tar.gz"
+  sha256 "46dc53b4844caf84a1a645ab712d6d8205354a75c9086164c340f68659edc882"
   license "Apache-2.0"
   head "https://github.com/friendliai/friendli-client.git", branch: "main"
 
@@ -177,8 +177,8 @@ class FriendliClient < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/23/40/100a105ab455be14cc5b96e2ecb0196ba28c506dcfd0c497a796db3c90c5/textual-0.72.0.tar.gz"
-    sha256 "14174ce8d49016a85aa6c0669d0881b5419e98cf46d429f263314295409ed262"
+    url "https://files.pythonhosted.org/packages/d8/e9/4939bf72d4a7d1a37aa5d55ad4438594a9d5e59875195dd89e9d8c14a9a9/textual-0.73.0.tar.gz"
+    sha256 "ccd1e873370577f557dfdf2b3411f2a4f68b57d4365f9d83a00d084afb15f5a6"
   end
 
   resource "trogon" do
