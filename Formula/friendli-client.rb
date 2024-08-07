@@ -3,8 +3,8 @@ class FriendliClient < Formula
 
   desc "Client for Friendli Suite, Supercharging Generative AI"
   homepage "https://friendli.ai"
-  url "https://files.pythonhosted.org/packages/b2/21/94843853ac6589da0e4dc58a35ff3e25f0f200040a5246d23a88bd6016cf/friendli_client-2.0.0a8.tar.gz"
-  sha256 "46dc53b4844caf84a1a645ab712d6d8205354a75c9086164c340f68659edc882"
+  url "https://files.pythonhosted.org/packages/92/a0/daa1e8192a014b3679ab4e59dd9f6dbf0637bdb708663dab680018316aee/friendli_client-2.0.0a10.tar.gz"
+  sha256 "7b24606d8fe65aecf987871a0b5df4cbc149b141c00b47feee023322918ea487"
   license "Apache-2.0"
   head "https://github.com/friendliai/friendli-client.git", branch: "main"
 
@@ -44,6 +44,11 @@ class FriendliClient < Formula
   resource "email-validator" do
     url "https://files.pythonhosted.org/packages/48/ce/13508a1ec3f8bb981ae4ca79ea40384becc868bfae97fd1c942bb3a001b1/email_validator-2.2.0.tar.gz"
     sha256 "cb690f344c617a714f22e66ae771445a1ceb46821152df8e165c5f9a364582b7"
+  end
+
+  resource "eval-type-backport" do
+    url "https://files.pythonhosted.org/packages/23/ca/1601a9fa588867fe2ab6c19ed4c936929160d08a86597adf61bbd443fe57/eval_type_backport-0.2.0.tar.gz"
+    sha256 "68796cfbc7371ebf923f03bdf7bef415f3ec098aeced24e054b253a0e78f7b37"
   end
 
   resource "graphql-core" do
@@ -87,8 +92,8 @@ class FriendliClient < Formula
   end
 
   resource "importlib-metadata" do
-    url "https://files.pythonhosted.org/packages/20/ff/bd28f70283b9cca0cbf0c2a6082acbecd822d1962ae7b2a904861b9965f8/importlib_metadata-8.0.0.tar.gz"
-    sha256 "188bd24e4c346d3f0a933f275c2fec67050326a856b9a359881d7c2a697e8812"
+    url "https://files.pythonhosted.org/packages/f6/a1/db39a513aa99ab3442010a994eef1cb977a436aded53042e69bee6959f74/importlib_metadata-8.2.0.tar.gz"
+    sha256 "72e8d4399996132204f9a16dcc751af254a48f8d1b20b9ff0f98d4a8f901e73d"
   end
 
   resource "jaraco-classes" do
@@ -102,13 +107,13 @@ class FriendliClient < Formula
   end
 
   resource "jaraco-functools" do
-    url "https://files.pythonhosted.org/packages/bc/66/746091bed45b3683d1026cb13b8b7719e11ccc9857b18d29177a18838dc9/jaraco_functools-4.0.1.tar.gz"
-    sha256 "d33fa765374c0611b52f8b3a795f8900869aa88c84769d4d1746cd68fb28c3e8"
+    url "https://files.pythonhosted.org/packages/03/b1/6ca3c2052e584e9908a2c146f00378939b3c51b839304ab8ef4de067f042/jaraco_functools-4.0.2.tar.gz"
+    sha256 "3460c74cd0d32bf82b9576bbb3527c4364d5b27a21f5158a62aed6c4b42e23f5"
   end
 
   resource "keyring" do
-    url "https://files.pythonhosted.org/packages/3e/e9/54f232e659f635a000d94cfbca40b9d5d617707593c3d552ec14d3ba27f1/keyring-25.2.1.tar.gz"
-    sha256 "daaffd42dbda25ddafb1ad5fec4024e5bbcfe424597ca1ca452b299861e49f1b"
+    url "https://files.pythonhosted.org/packages/32/30/bfdde7294ba6bb2f519950687471dc6a0996d4f77ab30d75c841fa4994ed/keyring-25.3.0.tar.gz"
+    sha256 "8d85a1ea5d6db8515b59e1c5d1d1678b03cf7fc8b8dcfb1651e8c4a524eb42ef"
   end
 
   resource "linkify-it-py" do
@@ -177,8 +182,8 @@ class FriendliClient < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/d8/e9/4939bf72d4a7d1a37aa5d55ad4438594a9d5e59875195dd89e9d8c14a9a9/textual-0.73.0.tar.gz"
-    sha256 "ccd1e873370577f557dfdf2b3411f2a4f68b57d4365f9d83a00d084afb15f5a6"
+    url "https://files.pythonhosted.org/packages/82/ee/01b57489e4c91c1aac9331121e66e8f25d9f5c6a4352044e034f94d11d7b/textual-0.75.1.tar.gz"
+    sha256 "3f0b53fe6119aa64853c7e60ced4d4e16fb23c83dee1e0fd19eddb3f2639c02e"
   end
 
   resource "trogon" do
