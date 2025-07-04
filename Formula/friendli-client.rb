@@ -3,8 +3,8 @@ class FriendliClient < Formula
 
   desc "Client for Friendli Suite, Supercharging Generative AI"
   homepage "https://friendli.ai"
-  url "https://files.pythonhosted.org/packages/73/dd/497df64c9bfcf5f0c04a303af828ae1cff8a1d308bb962686caad388cc77/friendli_client-2.0.0a14.tar.gz"
-  sha256 "cff2968e20e502b65b210dca38e335349b1621817f87e7a31dd984cfb2a9d899"
+  url "https://files.pythonhosted.org/packages/07/43/c1e54535b064f51c00384a7dabd66bd788587dec841d9e09d6af1fc3ec34/friendli_client-2.0.0a15.tar.gz"
+  sha256 "5445efde5d76a99fd3918eb45c069a0c41b315115abc59fe4859bde42992ec8a"
   license "Apache-2.0"
   head "https://github.com/friendliai/friendli-client.git", branch: "main"
 
